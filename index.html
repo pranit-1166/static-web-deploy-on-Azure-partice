@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Light & Soul — Spiritual Products</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Light & Soul</h1>
+    <p>Curated spiritual products for calm & practice</p>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Bring peace home</h2>
+      <p>Handpicked malas, incense, crystals & meditation mats.</p>
+      <a class="cta" href="#products">Shop Now</a>
+    </section>
+
+    <section id="products" class="products">
+      <article class="product">
+        <img src="images/mala.jpg" alt="Rudraksha Mala">
+        <h3>Rudraksha Mala</h3>
+        <p>108 beads — natural Rudraksha for meditation.</p>
+        <p class="price">₹1,499</p>
+        <button class="buy">View</button>
+      </article>
+
+      <article class="product">
+        <img src="images/incense.jpg" alt="Sandalwood Incense">
+        <h3>Sandalwood Incense</h3>
+        <p>Pure sandalwood sticks — 20 count.</p>
+        <p class="price">₹249</p>
+        <button class="buy">View</button>
+      </article>
+
+      <article class="product">
+        <img src="images/crystal.jpg" alt="Healing Crystal">
+        <h3>Clear Quartz</h3>
+        <p>Small polished crystal for clarity & focus.</p>
+        <p class="price">₹349</p>
+        <button class="buy">View</button>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Light & Soul</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
